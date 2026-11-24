@@ -1,7 +1,7 @@
 # zContact Official Website
 
 The public website of zContact, the privacy-first messaging app on the
-Internet Computer. It introduces zContact Chat and zContact Mail.
+Internet Computer. It introduces zContact Chat.
 
 Live: <https://z3efs-jaaaa-aaaam-qjtlq-cai.icp0.io/>
 
