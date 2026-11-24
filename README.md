@@ -3,7 +3,8 @@
 The public website of zContact, the privacy-first messaging app on the
 Internet Computer. It introduces zContact Chat.
 
-Live: <https://z3efs-jaaaa-aaaam-qjtlq-cai.icp0.io/>
+Live: <https://zcontact.cc/> (also <https://www.zcontact.cc/> and
+<https://z3efs-jaaaa-aaaam-qjtlq-cai.icp0.io/>). The app is at <https://chat.zcontact.cc/>.
 
 ## What is in it
 
@@ -16,6 +17,7 @@ A static page served from its own ICP asset canister:
 | `src/main.js` | Small interactions (no network requests) |
 | `src/logo.png` | Logo |
 | `src/fonts/` | Inter, Space Grotesk and IBM Plex Mono (self-hosted, with their licences) |
+| `src/.well-known/ic-domains` | The custom domains: zcontact.cc and www.zcontact.cc |
 | `src/.ic-assets.json5` | Security headers: strict CSP, no third-party content, no analytics |
 
 Everything is served from the canister: no third-party scripts, styles,
