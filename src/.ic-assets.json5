@@ -17,6 +17,11 @@
     "allow_raw_access": false
   },
   {
+    // The custom domains (dotfiles are skipped unless listed).
+    "match": ".well-known",
+    "ignore": false
+  },
+  {
     "match": "fonts/**/*",
     "headers": { "Cache-Control": "public, max-age=31536000, immutable" }
   }
