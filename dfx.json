@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "canisters": {
+    "zcontact-website": {
+      "type": "assets",
+      "source": ["src"]
+    }
+  },
+  "dfx": "0.32.0"
+}
